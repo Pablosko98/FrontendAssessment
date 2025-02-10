@@ -13,7 +13,7 @@ export default function ExpensesTable({ expenses, isLoading }: { expenses: Trans
         // TODO: Tweak some styling and font
         // TODO: handle pagination, search, etc
         <div className="expensesPage">
-            <h1 style={{marginTop: "3rem"}}>Expenses</h1>
+            <h1 style={{marginTop: "3rem", textAlign: "center"}}>Expenses</h1>
             {
                 // Table loading
                 isLoading? <span>Loading...</span> :

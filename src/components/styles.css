@@ -1,6 +1,6 @@
 .expensesPage {
     width: 80%;
-    justify-items: center;
+    margin: auto;
 }
 
 .expensesTable {
